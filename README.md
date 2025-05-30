@@ -15,7 +15,7 @@ This project follows Object-Oriented Programming (OOP) principles such as encaps
 
 ## 📁 Project Structure
 
-![Screenshot 2025-05-29 191933](https://github.com/user-attachments/assets/1b4083cb-658b-484f-97c8-dbee20eaa315)
+
 
 
 

@@ -19,7 +19,6 @@ public class Main {
 
                 switch (choice) {
                     case 1:
-                        System.out.println("Showing Menu...");
                         Menu menu = new Menu();
                         menu.runMenu();
                         break;
@@ -36,7 +35,7 @@ public class Main {
 
         } while (choice != 0);
 
-        scanner.close(); // Good practice
+
     }
 
     public static void main(String[] args) {

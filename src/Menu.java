@@ -8,8 +8,8 @@ public class Menu {
 
         do {
             System.out.println("""
-                WELCOME TO DeliAsYouGo
-                Enter options to proceed  
+               \n WELCOME TO Deli-cious\n
+                Enter options to proceed: 
                 1 - Add Sandwich
                 2 - Add Drink
                 3 - Add Chips
@@ -23,15 +23,22 @@ public class Menu {
 
                 switch (choice) {
                     case 1 -> {
-                        System.out.println("Add Sandwich...");
-                        System.out.println("Showing AddSandwich...");
-                        AddSandwich addSandwich = new AddSandwich();
-                        AddSandwich.runAddSandwich();
+                        Buttons.runAddSandwich();
                     }
-                    case 2 -> System.out.println("Add Drink...");
-                    case 3 -> System.out.println("Add Chips...");
+                    case 2 -> {
+                        Buttons.runAddDrink();
+                    }
+
+                    case 3 ->{
+                        Buttons.runAddChips();
+                    }
+
                     case 4 -> System.out.println("Signature sandwich...");
-                    case 5 -> System.out.println("Checkout...");
+
+                    case 5 ->{
+                    Buttons.checkout();
+                    }
+
                     case 0 -> System.out.println("Exiting. Thank you!");
                     default -> System.out.println("Invalid choice. Please try again.");
                 }

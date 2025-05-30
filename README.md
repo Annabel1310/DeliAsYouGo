@@ -86,8 +86,8 @@ public class ReceiptWriter {
         }
     }
 # Why I find it interesting.
-## It Automatically checks and creates a directiory
-## The class is also responsible for writting reciepts
+## It Automatically checks and creates a directory
+## The class is also responsible for writing reciepts
 ## Demonstrartes how to create, write and manage external files
 
 
